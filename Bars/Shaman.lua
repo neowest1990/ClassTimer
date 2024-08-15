@@ -5,40 +5,40 @@ end
 function ClassTimer:CreateTimers()
 	return {
 		Buffs = {
-			GetSpellInfo(16176), -- Ancestral Healing
-			GetSpellInfo(30160), -- Elemental Devastation
-			GetSpellInfo(64701), -- Elemental Mastery (Haste + Damage Buff)
-			GetSpellInfo(16166), -- Elemental Mastery (Instant)
-			GetSpellInfo(29062), -- Eye of the Storm
-			GetSpellInfo(29206), -- Healing Way
-			GetSpellInfo(30823), -- Shamanistic Rage
-			--		GetSpellInfo(51528), -- Maelstrom Weapon
-			--		GetSpellInfo(51730), -- Earthliving Weapon
-			--		GetSpellInfo(8024), -- Flametongue Weapon
-			--		GetSpellInfo(8232), -- Windfury Weapon
-			GetSpellInfo(16246), -- Clearcasting
-			GetSpellInfo(73683), -- Unleash Flame
-			GetSpellInfo(73681), -- Unleash Wind
-			GetSpellInfo(51945), -- Earthliving
-			GetSpellInfo(55198), -- Tidal Force
-			GetSpellInfo(79206), -- Spiritwalker's Grace
-			GetSpellInfo(17364), -- Stormstrike
-			GetSpellInfo(61295), -- Riptide
-			GetSpellInfo(51562), -- Tidal Waves
-			GetSpellInfo(131), -- Water Breathing
-			GetSpellInfo(546), -- Water Walking
-			GetSpellInfo(117014), -- Elemental Blast
-			GetSpellInfo(114050), -- Ascendance (Ele)
-			GetSpellInfo(114051), -- Ascendance (Enhance)
-			GetSpellInfo(114052), -- Ascendance (Resto)
-			(GetSpellInfo(30802)), -- Unleashed Rage
+			ClassTimer:MyGetSpellInfo(16176), -- Ancestral Healing
+			ClassTimer:MyGetSpellInfo(30160), -- Elemental Devastation
+			ClassTimer:MyGetSpellInfo(64701), -- Elemental Mastery (Haste + Damage Buff)
+			ClassTimer:MyGetSpellInfo(16166), -- Elemental Mastery (Instant)
+			ClassTimer:MyGetSpellInfo(29062), -- Eye of the Storm
+			ClassTimer:MyGetSpellInfo(29206), -- Healing Way
+			ClassTimer:MyGetSpellInfo(30823), -- Shamanistic Rage
+			--		ClassTimer:MyGetSpellInfo(51528), -- Maelstrom Weapon
+			--		ClassTimer:MyGetSpellInfo(51730), -- Earthliving Weapon
+			--		ClassTimer:MyGetSpellInfo(8024), -- Flametongue Weapon
+			--		ClassTimer:MyGetSpellInfo(8232), -- Windfury Weapon
+			ClassTimer:MyGetSpellInfo(16246), -- Clearcasting
+			ClassTimer:MyGetSpellInfo(73683), -- Unleash Flame
+			ClassTimer:MyGetSpellInfo(73681), -- Unleash Wind
+			ClassTimer:MyGetSpellInfo(51945), -- Earthliving
+			ClassTimer:MyGetSpellInfo(55198), -- Tidal Force
+			ClassTimer:MyGetSpellInfo(79206), -- Spiritwalker's Grace
+			ClassTimer:MyGetSpellInfo(17364), -- Stormstrike
+			ClassTimer:MyGetSpellInfo(61295), -- Riptide
+			ClassTimer:MyGetSpellInfo(51562), -- Tidal Waves
+			ClassTimer:MyGetSpellInfo(131), -- Water Breathing
+			ClassTimer:MyGetSpellInfo(546), -- Water Walking
+			ClassTimer:MyGetSpellInfo(117014), -- Elemental Blast
+			ClassTimer:MyGetSpellInfo(114050), -- Ascendance (Ele)
+			ClassTimer:MyGetSpellInfo(114051), -- Ascendance (Enhance)
+			ClassTimer:MyGetSpellInfo(114052), -- Ascendance (Resto)
+			(ClassTimer:MyGetSpellInfo(30802)), -- Unleashed Rage
 		},
 		Shocks = {
-			GetSpellInfo(73684), -- Unleash Earth
-			GetSpellInfo(73682), -- Unleash Frost
-			GetSpellInfo(8042), -- Earth Shock
-			GetSpellInfo(8050), -- Flame Shock
-			(GetSpellInfo(8056)), -- Frost Shock
+			ClassTimer:MyGetSpellInfo(73684), -- Unleash Earth
+			ClassTimer:MyGetSpellInfo(73682), -- Unleash Frost
+			ClassTimer:MyGetSpellInfo(8042), -- Earth Shock
+			ClassTimer:MyGetSpellInfo(8050), -- Flame Shock
+			(ClassTimer:MyGetSpellInfo(8056)), -- Frost Shock
 		},
 	}
 end

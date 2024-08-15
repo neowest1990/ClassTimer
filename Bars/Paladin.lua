@@ -5,50 +5,50 @@ end
 function ClassTimer:CreateTimers()
 	return {
 		Blessings = {
-			GetSpellInfo(1044), -- Blessing of Freedom
-			GetSpellInfo(1022), -- Blessing of Protection
-			GetSpellInfo(6940), -- Blessing of Sacrifice
-			GetSpellInfo(1038), -- Blessing of Salvation
-			GetSpellInfo(204018), -- Blessing of Spellwarding
-			GetSpellInfo(203538), -- Greater Blessing of Kings
-			GetSpellInfo(203539), -- Greater Blessing of Wisdom
-			(GetSpellInfo(205729)), -- Greater Blessing of Might
+			ClassTimer:MyGetSpellInfo(1044), -- Blessing of Freedom
+			ClassTimer:MyGetSpellInfo(1022), -- Blessing of Protection
+			ClassTimer:MyGetSpellInfo(6940), -- Blessing of Sacrifice
+			ClassTimer:MyGetSpellInfo(1038), -- Blessing of Salvation
+			ClassTimer:MyGetSpellInfo(204018), -- Blessing of Spellwarding
+			ClassTimer:MyGetSpellInfo(203538), -- Greater Blessing of Kings
+			ClassTimer:MyGetSpellInfo(203539), -- Greater Blessing of Wisdom
+			(ClassTimer:MyGetSpellInfo(205729)), -- Greater Blessing of Might
 		},
 		Buffs = {
-			GetSpellInfo(31884), -- Avenging Wrath
-			GetSpellInfo(31850), -- Ardent Defender
-			GetSpellInfo(498), -- Divine Protection
-			GetSpellInfo(642), -- Divine Shield
-			GetSpellInfo(86659), -- Guardian of Ancient Kings
-			GetSpellInfo(53600), -- Shield of the Righteous
-			GetSpellInfo(205656), -- Divine Steed
-			GetSpellInfo(184662), -- Shield of Vengeance
-			(GetSpellInfo(20925)), -- Holy Shield
+			ClassTimer:MyGetSpellInfo(31884), -- Avenging Wrath
+			ClassTimer:MyGetSpellInfo(31850), -- Ardent Defender
+			ClassTimer:MyGetSpellInfo(498), -- Divine Protection
+			ClassTimer:MyGetSpellInfo(642), -- Divine Shield
+			ClassTimer:MyGetSpellInfo(86659), -- Guardian of Ancient Kings
+			ClassTimer:MyGetSpellInfo(53600), -- Shield of the Righteous
+			ClassTimer:MyGetSpellInfo(205656), -- Divine Steed
+			ClassTimer:MyGetSpellInfo(184662), -- Shield of Vengeance
+			(ClassTimer:MyGetSpellInfo(20925)), -- Holy Shield
 		},
 		Stuns = {
-			GetSpellInfo(853), -- Hammer of Justice
-			(GetSpellInfo(20066)), -- Repentance
+			ClassTimer:MyGetSpellInfo(853), -- Hammer of Justice
+			(ClassTimer:MyGetSpellInfo(20066)), -- Repentance
 		},
 		Talents = {
-			GetSpellInfo(115750), --Blinding Light
-			GetSpellInfo(223819), -- Divine Purpose
-			GetSpellInfo(105809), -- Holy Avenger
-			GetSpellInfo(204150), -- Aegis of Light
-			GetSpellInfo(152262), -- Seraphim
+			ClassTimer:MyGetSpellInfo(115750), --Blinding Light
+			ClassTimer:MyGetSpellInfo(223819), -- Divine Purpose
+			ClassTimer:MyGetSpellInfo(105809), -- Holy Avenger
+			ClassTimer:MyGetSpellInfo(204150), -- Aegis of Light
+			ClassTimer:MyGetSpellInfo(152262), -- Seraphim
 		},
 		Misc = {
-			GetSpellInfo(53380), -- Righteous Vengeance
-			GetSpellInfo(31935), -- Avenger's Shield
-			GetSpellInfo(26573), -- Consecration
-			GetSpellInfo(31842), -- Divine Illumination
-			GetSpellInfo(64205), -- Divine Sacrifice
-			GetSpellInfo(53563), -- Beacon of Light
-			GetSpellInfo(31833), -- Light's Grace
-			GetSpellInfo(53672), -- Infusion of Light
-			GetSpellInfo(20049), -- Vengeance
-			GetSpellInfo(20335), -- Heart of the Crusader
-			GetSpellInfo(53380), -- Righteous Vengeance
-			(GetSpellInfo(9452)), -- Vindication
+			ClassTimer:MyGetSpellInfo(53380), -- Righteous Vengeance
+			ClassTimer:MyGetSpellInfo(31935), -- Avenger's Shield
+			ClassTimer:MyGetSpellInfo(26573), -- Consecration
+			ClassTimer:MyGetSpellInfo(31842), -- Divine Illumination
+			ClassTimer:MyGetSpellInfo(64205), -- Divine Sacrifice
+			ClassTimer:MyGetSpellInfo(53563), -- Beacon of Light
+			ClassTimer:MyGetSpellInfo(31833), -- Light's Grace
+			ClassTimer:MyGetSpellInfo(53672), -- Infusion of Light
+			ClassTimer:MyGetSpellInfo(20049), -- Vengeance
+			ClassTimer:MyGetSpellInfo(20335), -- Heart of the Crusader
+			ClassTimer:MyGetSpellInfo(53380), -- Righteous Vengeance
+			(ClassTimer:MyGetSpellInfo(9452)), -- Vindication
 		},
 	}
 end

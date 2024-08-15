@@ -6,7 +6,7 @@
 ## Notes-ruRU: Таймеры для  баффов, DOTs, CC эффектов, и т.д.
 ## Author: Ominous
 ## SavedVariables: ClassTimerDB
-## Version: @project-version@
+## Version: 2.4.2023.1
 ## OptionalDeps: Ace3, LibSharedMedia-3.0
 
 ## X-Credits: Nymbia

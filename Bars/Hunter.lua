@@ -5,63 +5,63 @@ end
 function ClassTimer:CreateTimers()
 	return {
 		Stings = {
-			GetSpellInfo(3043), -- Scorpid Sting
-			GetSpellInfo(1978), -- Serpent Sting
-			GetSpellInfo(3034), -- Viper Sting
-			(GetSpellInfo(19386)), -- Wyvern Sting
+			ClassTimer:MyGetSpellInfo(3043), -- Scorpid Sting
+			ClassTimer:MyGetSpellInfo(1978), -- Serpent Sting
+			ClassTimer:MyGetSpellInfo(3034), -- Viper Sting
+			(ClassTimer:MyGetSpellInfo(19386)), -- Wyvern Sting
 		},
 		Stuns = {
-			GetSpellInfo(3385), -- Boar Charge
-			GetSpellInfo(61685), -- Charge
-			GetSpellInfo(35100), -- Concussive Barrage
-			GetSpellInfo(5116), -- Concussive Shot
-			GetSpellInfo(19407), -- Improved Concussive Shot
-			GetSpellInfo(19228), -- Improved Wing Clip
-			GetSpellInfo(19577), -- Intimidation
-			GetSpellInfo(117526), -- Binding Shot
-			(GetSpellInfo(2974)), -- Wing Clip
+			ClassTimer:MyGetSpellInfo(3385), -- Boar Charge
+			ClassTimer:MyGetSpellInfo(61685), -- Charge
+			ClassTimer:MyGetSpellInfo(35100), -- Concussive Barrage
+			ClassTimer:MyGetSpellInfo(5116), -- Concussive Shot
+			ClassTimer:MyGetSpellInfo(19407), -- Improved Concussive Shot
+			ClassTimer:MyGetSpellInfo(19228), -- Improved Wing Clip
+			ClassTimer:MyGetSpellInfo(19577), -- Intimidation
+			ClassTimer:MyGetSpellInfo(117526), -- Binding Shot
+			(ClassTimer:MyGetSpellInfo(2974)), -- Wing Clip
 		},
 		Talents = {
-			GetSpellInfo(19184), -- Entrapment
-			GetSpellInfo(19574), -- Bestial Wrath
-			GetSpellInfo(34455), -- Ferocious Inspiration
-			GetSpellInfo(19615), -- Frenzy Effect
-			GetSpellInfo(34948), -- Rapid Killing
-			GetSpellInfo(53302), -- Sniper Training
-			GetSpellInfo(56342), -- Lock and Load
-			GetSpellInfo(53301), -- Explosive Shot
-			GetSpellInfo(53224), -- Steady Focus
-			GetSpellInfo(63468), -- Piercing Shots
-			(GetSpellInfo(34692)), -- The Beast Within
+			ClassTimer:MyGetSpellInfo(19184), -- Entrapment
+			ClassTimer:MyGetSpellInfo(19574), -- Bestial Wrath
+			ClassTimer:MyGetSpellInfo(34455), -- Ferocious Inspiration
+			ClassTimer:MyGetSpellInfo(19615), -- Frenzy Effect
+			ClassTimer:MyGetSpellInfo(34948), -- Rapid Killing
+			ClassTimer:MyGetSpellInfo(53302), -- Sniper Training
+			ClassTimer:MyGetSpellInfo(56342), -- Lock and Load
+			ClassTimer:MyGetSpellInfo(53301), -- Explosive Shot
+			ClassTimer:MyGetSpellInfo(53224), -- Steady Focus
+			ClassTimer:MyGetSpellInfo(63468), -- Piercing Shots
+			(ClassTimer:MyGetSpellInfo(34692)), -- The Beast Within
 		},
 		Traps = {
-			GetSpellInfo(63668), -- Black Arrow
-			GetSpellInfo(13812), -- Explosive Trap Effect
-			GetSpellInfo(3355), -- Freezing Trap Effect
-			GetSpellInfo(13810), -- Frost Trap Aura
-			(GetSpellInfo(13797)), -- Immolation Trap Effect
+			ClassTimer:MyGetSpellInfo(63668), -- Black Arrow
+			ClassTimer:MyGetSpellInfo(13812), -- Explosive Trap Effect
+			ClassTimer:MyGetSpellInfo(3355), -- Freezing Trap Effect
+			ClassTimer:MyGetSpellInfo(13810), -- Frost Trap Aura
+			(ClassTimer:MyGetSpellInfo(13797)), -- Immolation Trap Effect
 		},
 		Misc = {
-			GetSpellInfo(1539), -- Feed Pet Effect
-			GetSpellInfo(53517), -- Roar of Recovery
-			GetSpellInfo(19263), -- Deterrence
-			GetSpellInfo(34500), -- Expose Weakness
-			GetSpellInfo(1543), -- Flare
-			GetSpellInfo(82692), -- Focus Fire
-			GetSpellInfo(1130), -- Hunter's Mark
-			GetSpellInfo(53243), -- Marked for Death
-			GetSpellInfo(53480), -- Roar of Sacrifice
-			GetSpellInfo(34506), -- Master Tactician
-			GetSpellInfo(136), -- Mend Pet
-			GetSpellInfo(6150), -- Quick Shots
-			GetSpellInfo(3045), -- Rapid Fire
-			GetSpellInfo(168811), -- Sniper Training
-			GetSpellInfo(168809), -- ST. Recently Moved
-			GetSpellInfo(1513), -- Scare Beast
-			GetSpellInfo(131894), -- A Murder of Crows
-			GetSpellInfo(3674), -- Black Arrow
-			GetSpellInfo(187131), -- Vulnerable
-			(GetSpellInfo(34490)), -- Silencing Shot
+			ClassTimer:MyGetSpellInfo(1539), -- Feed Pet Effect
+			ClassTimer:MyGetSpellInfo(53517), -- Roar of Recovery
+			ClassTimer:MyGetSpellInfo(19263), -- Deterrence
+			ClassTimer:MyGetSpellInfo(34500), -- Expose Weakness
+			ClassTimer:MyGetSpellInfo(1543), -- Flare
+			ClassTimer:MyGetSpellInfo(82692), -- Focus Fire
+			ClassTimer:MyGetSpellInfo(1130), -- Hunter's Mark
+			ClassTimer:MyGetSpellInfo(53243), -- Marked for Death
+			ClassTimer:MyGetSpellInfo(53480), -- Roar of Sacrifice
+			ClassTimer:MyGetSpellInfo(34506), -- Master Tactician
+			ClassTimer:MyGetSpellInfo(136), -- Mend Pet
+			ClassTimer:MyGetSpellInfo(6150), -- Quick Shots
+			ClassTimer:MyGetSpellInfo(3045), -- Rapid Fire
+			ClassTimer:MyGetSpellInfo(168811), -- Sniper Training
+			ClassTimer:MyGetSpellInfo(168809), -- ST. Recently Moved
+			ClassTimer:MyGetSpellInfo(1513), -- Scare Beast
+			ClassTimer:MyGetSpellInfo(131894), -- A Murder of Crows
+			ClassTimer:MyGetSpellInfo(3674), -- Black Arrow
+			ClassTimer:MyGetSpellInfo(187131), -- Vulnerable
+			(ClassTimer:MyGetSpellInfo(34490)), -- Silencing Shot
 		},
 	}
 end

@@ -5,61 +5,61 @@ end
 function ClassTimer:CreateTimers()
 	return {
 		Buffs = {
-			GetSpellInfo(22812), -- Barkskin
-			GetSpellInfo(12536), -- Clearcasting
-			GetSpellInfo(29166), -- Innervate
-			GetSpellInfo(33763), -- Lifebloom
-			GetSpellInfo(8936), -- Regrowth
-			GetSpellInfo(100977), -- Harmony
-			GetSpellInfo(158792), -- Pulverize
-			GetSpellInfo(155777), -- Rejuvenation (Germination)
-			GetSpellInfo(191034), -- Starfall
-			(GetSpellInfo(774)), -- Rejuvenation
+			ClassTimer:MyGetSpellInfo(22812), -- Barkskin
+			ClassTimer:MyGetSpellInfo(12536), -- Clearcasting
+			ClassTimer:MyGetSpellInfo(29166), -- Innervate
+			ClassTimer:MyGetSpellInfo(33763), -- Lifebloom
+			ClassTimer:MyGetSpellInfo(8936), -- Regrowth
+			ClassTimer:MyGetSpellInfo(100977), -- Harmony
+			ClassTimer:MyGetSpellInfo(158792), -- Pulverize
+			ClassTimer:MyGetSpellInfo(155777), -- Rejuvenation (Germination)
+			ClassTimer:MyGetSpellInfo(191034), -- Starfall
+			(ClassTimer:MyGetSpellInfo(774)), -- Rejuvenation
 		},
 		DOTs = {
-			GetSpellInfo(339), -- Entangling Roots
-			GetSpellInfo(2637), -- Hibernate
-			GetSpellInfo(164815), -- Sunfire
-			GetSpellInfo(115798), -- Weakened Blows
-			GetSpellInfo(202347), -- Stellar Flare
-			(GetSpellInfo(164812)), -- Moonfire
+			ClassTimer:MyGetSpellInfo(339), -- Entangling Roots
+			ClassTimer:MyGetSpellInfo(2637), -- Hibernate
+			ClassTimer:MyGetSpellInfo(164815), -- Sunfire
+			ClassTimer:MyGetSpellInfo(115798), -- Weakened Blows
+			ClassTimer:MyGetSpellInfo(202347), -- Stellar Flare
+			(ClassTimer:MyGetSpellInfo(164812)), -- Moonfire
 		},
 		Feral = {
-			GetSpellInfo(50322), --Survival Instincts
-			GetSpellInfo(52610), -- Savage Roar
-			GetSpellInfo(5211), -- Bash
-			GetSpellInfo(5211), -- Dash
-			GetSpellInfo(22842), -- Frenzied Regeneration
-			GetSpellInfo(22570), -- Maim
-			GetSpellInfo(77758), -- Thrash
-			GetSpellInfo(78892), -- Stampede
-			GetSpellInfo(77761), -- Stampeding Roar
-			GetSpellInfo(62606), -- Savage Defense
-			GetSpellInfo(1822), -- Rake
-			GetSpellInfo(1079), -- Rip
-			(GetSpellInfo(5217)), -- Tiger's Fury
+			ClassTimer:MyGetSpellInfo(50322), --Survival Instincts
+			ClassTimer:MyGetSpellInfo(52610), -- Savage Roar
+			ClassTimer:MyGetSpellInfo(5211), -- Bash
+			ClassTimer:MyGetSpellInfo(5211), -- Dash
+			ClassTimer:MyGetSpellInfo(22842), -- Frenzied Regeneration
+			ClassTimer:MyGetSpellInfo(22570), -- Maim
+			ClassTimer:MyGetSpellInfo(77758), -- Thrash
+			ClassTimer:MyGetSpellInfo(78892), -- Stampede
+			ClassTimer:MyGetSpellInfo(77761), -- Stampeding Roar
+			ClassTimer:MyGetSpellInfo(62606), -- Savage Defense
+			ClassTimer:MyGetSpellInfo(1822), -- Rake
+			ClassTimer:MyGetSpellInfo(1079), -- Rip
+			(ClassTimer:MyGetSpellInfo(5217)), -- Tiger's Fury
 		},
 		Talents = {
-			GetSpellInfo(50334), -- Berserk
-			GetSpellInfo(16857), -- Faerie Fire (Feral)
-			GetSpellInfo(16979), -- Feral Charge - Bear
-			GetSpellInfo(33831), -- Force of Nature
-			GetSpellInfo(33878), -- Mangle (Bear)
-			GetSpellInfo(33876), -- Mangle (Cat)
-			GetSpellInfo(48438), -- Wild Growth
-			GetSpellInfo(69369), -- Predator's Swiftness
-			GetSpellInfo(124974), -- Nature's Vigil
-			GetSpellInfo(106922), -- Might of Ursoc
-			GetSpellInfo(102558), -- Incarnation: Sun of Ursoc
-			GetSpellInfo(102543), -- Incarnation: King of the Jungle
-			GetSpellInfo(102560), -- Incarnation: Chosen of Elune
-			GetSpellInfo(117679), -- Incarnation   (this is the one used for Tree of Life)
-			(GetSpellInfo(16689)), -- Nature's Grasp
+			ClassTimer:MyGetSpellInfo(50334), -- Berserk
+			ClassTimer:MyGetSpellInfo(16857), -- Faerie Fire (Feral)
+			ClassTimer:MyGetSpellInfo(16979), -- Feral Charge - Bear
+			ClassTimer:MyGetSpellInfo(33831), -- Force of Nature
+			ClassTimer:MyGetSpellInfo(33878), -- Mangle (Bear)
+			ClassTimer:MyGetSpellInfo(33876), -- Mangle (Cat)
+			ClassTimer:MyGetSpellInfo(48438), -- Wild Growth
+			ClassTimer:MyGetSpellInfo(69369), -- Predator's Swiftness
+			ClassTimer:MyGetSpellInfo(124974), -- Nature's Vigil
+			ClassTimer:MyGetSpellInfo(106922), -- Might of Ursoc
+			ClassTimer:MyGetSpellInfo(102558), -- Incarnation: Sun of Ursoc
+			ClassTimer:MyGetSpellInfo(102543), -- Incarnation: King of the Jungle
+			ClassTimer:MyGetSpellInfo(102560), -- Incarnation: Chosen of Elune
+			ClassTimer:MyGetSpellInfo(117679), -- Incarnation   (this is the one used for Tree of Life)
+			(ClassTimer:MyGetSpellInfo(16689)), -- Nature's Grasp
 		},
 		Misc = {
-			GetSpellInfo(33786), -- Cyclone
-			GetSpellInfo(770), -- Faerie Fire
-			(GetSpellInfo(2637)), -- Hibernate
+			ClassTimer:MyGetSpellInfo(33786), -- Cyclone
+			ClassTimer:MyGetSpellInfo(770), -- Faerie Fire
+			(ClassTimer:MyGetSpellInfo(2637)), -- Hibernate
 		},
 	}
 end

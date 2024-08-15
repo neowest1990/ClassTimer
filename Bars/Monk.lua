@@ -5,37 +5,37 @@ end
 function ClassTimer:CreateTimers()
 	return {
 		Buffs = {
-			GetSpellInfo(122278), -- Dampen Harm
-			GetSpellInfo(115213), -- Avert Harm
-			GetSpellInfo(124280), -- Touch of Karma
-			GetSpellInfo(115308), -- Elusive Brew
-			GetSpellInfo(115203), -- Fortifying Brew
-			GetSpellInfo(124682), -- Enveloping Mist
-			GetSpellInfo(115151), -- Renewing Mist
-			GetSpellInfo(115175), -- Soothing Mist
-			GetSpellInfo(115307), -- Shuffle
-			GetSpellInfo(120274), -- Tiger Strikes
-			GetSpellInfo(118636), -- Power Guard
-			GetSpellInfo(121125), -- Death Note
-			GetSpellInfo(125359), -- Tiger Power
-			GetSpellInfo(115288), -- Energizing Brew
-			GetSpellInfo(115295), -- Guard
-			GetSpellInfo(116768), -- Combo Breaker: Blackout Kick
-			GetSpellInfo(118864), -- Combo Breaker: Tiger Palm
-			GetSpellInfo(101546), -- Spinning Crane Kick
-			GetSpellInfo(116740), -- Tigereye Brew
-			(GetSpellInfo(122783)), -- Diffuse Magic
+			ClassTimer:MyGetSpellInfo(122278), -- Dampen Harm
+			ClassTimer:MyGetSpellInfo(115213), -- Avert Harm
+			ClassTimer:MyGetSpellInfo(124280), -- Touch of Karma
+			ClassTimer:MyGetSpellInfo(115308), -- Elusive Brew
+			ClassTimer:MyGetSpellInfo(115203), -- Fortifying Brew
+			ClassTimer:MyGetSpellInfo(124682), -- Enveloping Mist
+			ClassTimer:MyGetSpellInfo(115151), -- Renewing Mist
+			ClassTimer:MyGetSpellInfo(115175), -- Soothing Mist
+			ClassTimer:MyGetSpellInfo(115307), -- Shuffle
+			ClassTimer:MyGetSpellInfo(120274), -- Tiger Strikes
+			ClassTimer:MyGetSpellInfo(118636), -- Power Guard
+			ClassTimer:MyGetSpellInfo(121125), -- Death Note
+			ClassTimer:MyGetSpellInfo(125359), -- Tiger Power
+			ClassTimer:MyGetSpellInfo(115288), -- Energizing Brew
+			ClassTimer:MyGetSpellInfo(115295), -- Guard
+			ClassTimer:MyGetSpellInfo(116768), -- Combo Breaker: Blackout Kick
+			ClassTimer:MyGetSpellInfo(118864), -- Combo Breaker: Tiger Palm
+			ClassTimer:MyGetSpellInfo(101546), -- Spinning Crane Kick
+			ClassTimer:MyGetSpellInfo(116740), -- Tigereye Brew
+			(ClassTimer:MyGetSpellInfo(122783)), -- Diffuse Magic
 		},
 		Debuffs = {
-			GetSpellInfo(115804), -- Mortal Wounds
-			GetSpellInfo(128531), -- Blackout Kick
-			GetSpellInfo(107428), -- Rising Sun Kick
-			(GetSpellInfo(115180)), -- Dizzying Haze
+			ClassTimer:MyGetSpellInfo(115804), -- Mortal Wounds
+			ClassTimer:MyGetSpellInfo(128531), -- Blackout Kick
+			ClassTimer:MyGetSpellInfo(107428), -- Rising Sun Kick
+			(ClassTimer:MyGetSpellInfo(115180)), -- Dizzying Haze
 		},
 		Misc = {
-			GetSpellInfo(116095), -- Disable
-			GetSpellInfo(119381), -- Leg Sweep
-			(GetSpellInfo(115078)), -- Paralysis
+			ClassTimer:MyGetSpellInfo(116095), -- Disable
+			ClassTimer:MyGetSpellInfo(119381), -- Leg Sweep
+			(ClassTimer:MyGetSpellInfo(115078)), -- Paralysis
 		},
 	}
 end

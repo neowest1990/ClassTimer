@@ -410,6 +410,22 @@ function ClassTimer:List(table)
 	return list
 end
 
+function ClassTimer:MyGetSpellInfo(spell_id)
+    if spell_id == nil or not spell_id then
+        return nil,nil,nil,nil,nil,nil,nil,nil
+    end
+    if GetSpellInfo then
+        return GetSpellInfo(spell_id)
+    else
+        local spellInfo = C_Spell.GetSpellInfo(spell_id)
+        if spellInfo == nil then
+            return nil,nil,nil,nil,nil,nil,nil,nil
+        else
+            return spellInfo.name,nil,spellInfo.iconID,spellInfo.castTime,spellInfo.minRange,spellInfo.maxRange,spellInfo.spellID,spellInfo.originalIconID
+        end
+    end
+end
+
 do
 	local function sortup(a, b)
 		return a.remaining > b.remaining
@@ -445,7 +461,21 @@ do
 		if db.buffs then
 			local i = 1
 			while true do
-				local name, texture, count, _, duration, endTime, caster = UnitBuff(unit, i)
+				--local name, texture, count, _, duration, endTime, caster = UnitBuff(unit, i)
+				local auraData = C_UnitAuras.GetBuffDataByIndex(unit, i, "HELPFUL")
+				if auraData == nil then
+				    break
+				end
+				--if not auraData.isHelpful then
+                    --break
+                --end
+                local name = auraData.name
+                local texture = auraData.icon
+                local count = auraData.charges
+                --local debuffType = auraData.dispelName
+                local duration = auraData.duration
+                local endTime = auraData.expirationTime
+                local caster = auraData.sourceUnit
 				if not name then
 					break
 				end
@@ -488,7 +518,21 @@ do
 		if db.debuffs then
 			local i = 1
 			while true do
-				local name, texture, count, debuffType, duration, endTime, caster = UnitDebuff(unit, i)
+				-- local name, texture, count, debuffType, duration, endTime, caster = UnitDebuf(unit, i)
+				local auraData = C_UnitAuras.GetDebuffDataByIndex(unit, i, "HARMFUL")
+				if auraData == nil then
+				    break
+                end
+                --if not auraData.isHarmful then
+                    --break
+                --end
+				local name = auraData.name
+				local texture = auraData.icon
+				local count = auraData.charges
+				local debuffType = auraData.dispelName
+				local duration = auraData.duration
+				local endTime = auraData.expirationTime
+				local caster = auraData.sourceUnit
 				if not name then
 					break
 				end

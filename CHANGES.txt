@@ -1,0 +1,78 @@
+tag f1a3e249e47aa86cad5ad12427294a3f6302378b 2.4.2023.1
+Author:	Benjamin Staneck <staneck@gmail.com>
+Date:	Sun Jan 22 03:19:26 2023 +0100
+
+commit d379701aeb1e91f6826b4534cf3852149824465b
+Author: Benjamin Staneck <staneck@gmail.com>
+Date:   Sun Jan 22 03:16:24 2023 +0100
+
+    more cleanup
+
+commit a3ba902f175c38fac67fb57548c729c58ec93356
+Author: Benjamin Staneck <staneck@gmail.com>
+Date:   Sun Jan 22 02:50:26 2023 +0100
+
+    cleanup
+
+commit 23843af9bab18de02aaa9339f3804efb84bbb14e
+Author: Benjamin Staneck <staneck@gmail.com>
+Date:   Sun Jan 22 02:48:46 2023 +0100
+
+    Add Evoker and Dractyr stuff from the comments section
+
+commit 1e2e5047387f7a68bec60425bd0301e1e5f5168c
+Author: Benjamin Staneck <staneck@gmail.com>
+Date:   Sat Jan 21 22:21:37 2023 +0100
+
+    Update URL for LDB
+
+commit 38e93fa31ce888ff149f5ec55b5945caf85f2f5c
+Author: Benjamin Staneck <staneck@gmail.com>
+Date:   Sat Jan 21 22:16:49 2023 +0100
+
+    Update pkgmeta URLs and update TOC
+
+commit 3f5740ec775383a4e6abfba6487ec2d8d24d7ba7
+Author: Eldranil <117493259+Eldranil@users.noreply.github.com>
+Date:   Sun Nov 27 12:26:26 2022 -0500
+
+    changed bar.icon strata from DIALOGUE to OVERLAY
+
+commit 717fa06b263931fe3e436fec2a25956bb1ae418c
+Author: Eldranil <117493259+Eldranil@users.noreply.github.com>
+Date:   Sun Nov 27 12:24:47 2022 -0500
+
+    Update ClassTimer.toc
+
+commit 2ff0b0b91304d4bbbcc6580831673d9d43d417a4
+Author: Benjamin Staneck <staneck@gmail.com>
+Date:   Wed Aug 18 21:14:18 2021 +0200
+
+    Change PLAYER_PET_CHANGED to UNIT_PET
+    
+    ideally you would also check for the player arg
+
+commit 4bee44ae317c358c9e7976d86086d510ed5bb5c7
+Author: Benjamin Staneck <staneck@gmail.com>
+Date:   Tue Feb 2 13:15:22 2021 +0100
+
+    Update ci.yml
+
+commit b051f90160cb51f2af9bb34d6ef7fa941b0e8e3e
+Author: Benjamin Staneck <staneck@gmail.com>
+Date:   Tue Feb 2 13:07:32 2021 +0100
+
+    Create ci.yml
+
+commit c99ec6eb40d39cf22d3aa194cb4fc6efefb6e6be
+Author: Lingfeng Xiong <xionglingfeng@Gmail.com>
+Date:   Sun Nov 29 22:07:42 2020 -0330
+
+    Do not register PLAYER_FOCUS_CHANGED in Classic
+
+commit 253eaecc78b0e713d2b713a09f2bc7ee1af38b73
+Author: Benjamin Staneck <staneck@gmail.com>
+Date:   Fri Oct 16 19:29:59 2020 +0200
+
+    Create README.md
+
